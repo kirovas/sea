@@ -323,16 +323,19 @@ and (min-width : 321px)
 and (max-width : 480px) {
     /* Styles */
  .hover-img{left: 60px;}
+ .header {height:100%;}
 }
 @media only screen 
 and (min-width : 481px)
 and (max-width : 768px) {
     /* Styles */
  .hover-img{left: 160px;}
+ .header {height:100%;}
 }
  
 @media (min-width: 768px){
 	.hover-img{left: 26px;}
+	.header {height:100%;}
  }
 @media (min-width: 1200px){
 	.hover-img{left: 38px;}
