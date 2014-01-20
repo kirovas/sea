@@ -186,13 +186,13 @@ margin:0px auto;
 	padding: 48px 10px;
  }
  .block:hover .s{
-	background:url(../images/circle1.png) center center no-repeat;
+	background:url(../images/circle1-old.png) center center no-repeat;
 	}
  .block:hover .e{
-	background:url(../images/circle2.png) center center no-repeat;
+	background:url(../images/circle2-old.png) center center no-repeat;
  }
  .block:hover .a{
-	background:url(../images/circle3.png) center center no-repeat;
+	background:url(../images/circle3-old.png) center center no-repeat;
  }
  .inner h1.letter{
 	display:block;
