@@ -10,7 +10,8 @@
  
 /* ------------------------- Generic */
 body {
-    /*color:#ffffff;*/
+    margin:0px;
+	padding:0px;
 }
 .clear {clear:both;}
 
@@ -111,9 +112,9 @@ top: 300px;
 	background:#fff url(../images/vk-h.png)no-repeat center center;
 }
 .container {
-padding: 10px 20px;
+padding: 0px 20px;
 overflow: hidden;
-width: 1200px;
+width: 1000px;
 margin: 0 auto;
 }
 /*Share block end*/
@@ -175,7 +176,7 @@ height: 50px;
  }
  
  .hover-img {
-left: 72px;
+left: 43px;
 width:160px;
 height:100px;
 position:absolute;
