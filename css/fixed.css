@@ -54,7 +54,7 @@ margin: 0 auto;
  }
  #main{
 	
-	background: url(../images/ship.jpg) no-repeat top center; 
+	background: url(../images/ship.jpg) no-repeat bottom center; 
   
   
  }
@@ -238,11 +238,16 @@ margin:0px auto;
  cursor:pointer;
  width: 33%;
 float: left;
+height: 410px;
  }
  
  .block ul{
 	margin: 0px 0px 0px 10px;
 	padding:0px;
+	display:none;
+ }
+ .block:hover ul{
+	display:block;
  }
  .block ul li{
 	color:#fff;
