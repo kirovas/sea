@@ -260,7 +260,7 @@ position:relative;
  .bottom-link ul li{
 	float:left;
 	margin-right:10px;
-	border:1px solid #ddd;
+	
  }
  .bottom-link ul li a{
 	display:block;
@@ -271,25 +271,25 @@ position:relative;
  #fb-bot{
 	background-position:0px -68px;
  }
- #fb-bot:hover{
+ #fb-bot:hover,.bottom-link ul li.active #fb-bot{
 	background-position:0px 0px;
  }
  #in-bot{
 	background-position:-103px -70px;;
  }
- #in-bot:hover{
+ #in-bot:hover, .bottom-link ul li.active #in-bot{
 	background-position:-103px 0px;
  }
  #gp-bot{
 	background-position:-210px -68px;
  }
- #gp-bot:hover{
+ #gp-bot:hover, .bottom-link ul li.active #gp-bot{
 	background-position:-210px 1px;
  }
  #vk-bot{
 	background-position:-313px -68px;
  }
- #vk-bot:hover{
+ #vk-bot:hover,.bottom-link ul li.active #vk-bot{
 	background-position:-313px 2px;
  }
  .widget{

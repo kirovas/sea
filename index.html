@@ -102,17 +102,21 @@ onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=
 				<h1 class="soc_title">Key2Sea in social networks:</h1>
 				<div class="col-md-12">
 					<div class="bottom-link">
-						<ul>
-							<li><a href="#" id="fb-bot"></a></li>
-							<li><a href="#" id="in-bot"></a></li>
-							<li><a href="#" id="gp-bot"></a></li>
-							<li><a href="#" id="vk-bot"></a></li>
+						
+						<ul class="nav nav-tabs" id="tabs">
+							<li><a href="#facebook" id="fb-bot" data-toggle="tab"></a></li>
+							<li><a href="#link" id="in-bot" data-toggle="tab"></a></li>
+							<li><a href="#google" id="gp-bot" data-toggle="tab"></a></li>
+							<li><a href="#vkontakte" id="vk-bot" data-toggle="tab"></a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-12">
-					<div class="widget"><img src="images/widget.jpg" /></div>
-				</div>
+				<div class="tab-content">
+  <div class="tab-pane active" id="facebook"><img src="images/widget.jpg" /></div>
+  <div class="tab-pane" id="link">...</div>
+  <div class="tab-pane" id="google">...</div>
+  <div class="tab-pane" id="vkontakte">...</div>
+</div>
 				<div class="col-md-12">
 					<div class="copy pull-right">
 						<p>Copyright &copy KEY2SEA</p>
@@ -129,5 +133,13 @@ onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=
     <script src="js/bootstrap.min.js"></script>
 	<script src="js/anchor.js"></script>
 	<!--<script src="js/custom.js"></script>-->
+	<script>
+	$(document).ready(function(){
+		$('#myTab a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+});
+	</script>
   </body>
 </html>
