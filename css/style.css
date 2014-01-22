@@ -295,6 +295,40 @@ position:relative;
  .widget{
 	margin:20px 0px;
  }
+ #footer{
+	background:#ccc url(../images/blue.png);
+	color:#fff;
+ }
+ #footer span{
+	margin-right:10px;
+ }
+ .center{
+	text-align:center;
+ }
+ a.totop{
+ cursor: pointer;
+ background: #187FA0;
+border-radius: 50%;
+display: inline-block;
+padding: 17px 20px;
+color: #fff;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+a.totop:hover{
+	background:#29ADD8;
+	-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+.totop > span{
+	margin-right:0px!important;
+}
 /* ------------------------- Popups */
  
 /* ------------------------- Media Queries */
