@@ -299,6 +299,10 @@ position:relative;
 	background:#1ea8d5;
 	color:#fff;
  }
+ #footer img{
+ padding: 5px;
+height: 90px;
+ }
  #footer .column{
 	padding-top:5px;
  }
