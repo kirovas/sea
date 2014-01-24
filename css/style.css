@@ -53,10 +53,10 @@ label {}
  }
  /*Share block*/
  .share {
-position: absolute;
+position: fixed;
 z-index: 3;
 right: 0px;
-top: 300px;
+top: 200px;
 }
 .share ul{
 	margin:0px;
@@ -68,12 +68,14 @@ top: 300px;
 	border:1px solid #fff;
 	color:#fff;
 	font-size:16px;
+	background:#1ea8d5;
 }
 .share ul li span{
 	padding:0 5px;
 	width:40px;
 	height:40px;
 	line-height:40px;
+	
 }
 .share ul li a{
 	display:block;
@@ -81,25 +83,25 @@ top: 300px;
 	height:40px;
 }
 #ref_fb{
-	background:url(../images/f.png)no-repeat center center;
+	background:#1ea8d5 url(../images/f.png)no-repeat center center;
 }
 #ref_fb:hover{
 	background:#fff url(../images/f-h.png)no-repeat center center;
 }
 #ref_lkd{
-	background:url(../images/in.png)no-repeat center center;
+	background:#1ea8d5 url(../images/in.png)no-repeat center center;
 }
 #ref_lkd:hover{
 	background:#fff url(../images/in-h.png)no-repeat center center;
 }
 #ref_gp{
-	background:url(../images/g.png)no-repeat center center;
+	background:#1ea8d5 url(../images/g.png)no-repeat center center;
 }
 #ref_gp:hover{
 	background:#fff url(../images/g-h.png)no-repeat center center;
 }
 #ref_vk{
-	background:url(../images/vk.png)no-repeat center center;
+	background:#1ea8d5 url(../images/vk.png)no-repeat center center;
 }
 #ref_vk:hover{
 	background:#fff url(../images/vk-h.png)no-repeat center center;
