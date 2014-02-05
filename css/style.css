@@ -51,6 +51,9 @@ label {}
   background-size: cover;
   
  }
+ .margin30{
+	margin-top:30px;
+ }
  /*Share block*/
  .share {
 position: fixed;
@@ -158,7 +161,79 @@ border-right: 2px solid #02a7d7;
 	padding:50px 10px 10px;
 	position:relative;
  }
- 
+ img.border{
+	padding:10px;
+	border:1px solid #fff;
+ }
+ ul.item-list{
+	margin:30px 0px 0px 0px;
+	padding:0px;
+	list-style:none;
+ }
+ ul.item-list li{
+	color:#fff;
+	font-size:15px;
+	
+ }
+ ul.item-list li a{
+	color:#fff;
+ }
+ ul.item-list li a.aitalic{
+	font-style:italic;
+ }
+ /*scrolling*/
+ .scrolling{
+	height:630px;
+	padding-top:30px;
+	overflow-y:hidden;
+ }
+.scrolling img {
+max-width: 100%;
+}
+ .filter-wrap{
+	min-height:150px;
+	padding:0px 20px;
+ }
+ .filter-wrap > ul{
+	list-style:none;
+	padding:10px 0px;
+	
+ }
+ .filter-wrap > ul > li{
+	color:#fff;
+	padding:5px 0px;
+ }
+ .filter-wrap > ul > li > a{
+	color:#fff;
+	font-size:21px;
+	
+ }
+ .filter-wrap > ul > li > a span{
+	margin-right:10px;
+ }
+ .fform label{
+	color:#fff;
+	margin-top:30px;
+	font-size:18px;
+	font-weight:normal;
+}
+.btn.big-circle-btn {
+width: 100px;
+height: 100px;
+color: #fff;
+border: 1px solid #fff;
+padding: 5px;
+border-radius: 50%;
+line-height: 88px;
+font-size: 24px;
+margin:30px auto;
+display:block;
+}
+.btn.big-circle-btn span{
+	background:rgba(255,255,255,0.4);
+	display:block;
+	border-radius: 50%;
+}
  .hover-img {
 
 width:164px;
