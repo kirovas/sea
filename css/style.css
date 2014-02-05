@@ -72,6 +72,9 @@ top: 200px;
 	color:#fff;
 	font-size:16px;
 	background:#1ea8d5;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
 }
 .share ul li span{
 	padding:0 5px;
@@ -83,11 +86,14 @@ top: 200px;
 .share ul li a{
 	display:block;
 	width:55px;
-	height:40px;
+	height:35px;
 	-webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
 -o-transition: all 0.5s ease-in-out;
 transition: all 0.5s ease-in-out;
+border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
 }
 #ref_fb{
 	background:#1ea8d5 url(../images/f.png)no-repeat center center;
