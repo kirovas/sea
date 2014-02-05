@@ -84,6 +84,10 @@ top: 200px;
 	display:block;
 	width:55px;
 	height:40px;
+	-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
 }
 #ref_fb{
 	background:#1ea8d5 url(../images/f.png)no-repeat center center;
@@ -105,6 +109,7 @@ top: 200px;
 }
 #ref_vk{
 	background:#1ea8d5 url(../images/vk.png)no-repeat center center;
+	
 }
 #ref_vk:hover{
 	background:#fff url(../images/vk-h.png)no-repeat center center;
